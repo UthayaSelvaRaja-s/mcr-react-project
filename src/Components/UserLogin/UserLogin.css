@@ -1,0 +1,128 @@
+.Userlogincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.UserLogincardback {
+    background-image: url(../Assects/BG9.jpg);
+    background-size: cover;
+    height: 430px;
+}
+
+.UserLoginformdesign {
+    display: flex;
+    flex-direction: row;
+}
+
+.UserLoginheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.UserText {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.UserUnderline {
+    width: 61px;
+    height: 6px;
+    background: black;
+    border-radius: 9px;
+}
+
+.UserInputs {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.UserInput label {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.UserInput {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.UserForget {
+    padding-left: 80px;
+    margin-top: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.UserForget span {
+    color: blue;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.UserSubmit-container {
+    display: flex;
+    gap: 15px;
+    margin: 30px auto;
+}
+
+.UserSubmit-login,
+.UserSubmit-Reg {
+    width: 100%; /* Make the buttons take the full width */
+    background-color: blue;
+    font-weight: 600;
+}
+
+.UserSubmit-login {
+   
+    color: white;
+    font-weight: 500;
+}
+
+.UserSubmit-Reg {
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Usergray {
+    background-color: gray;
+    color: black;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .UserLoginformdesign {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+    }
+
+    .UserInput {
+        width: 100%; /* Make the input fields take the full width */
+    }
+
+    .UserForget {
+        padding-left: 0; /* Remove left padding on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+}

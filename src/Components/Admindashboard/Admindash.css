@@ -1,0 +1,27 @@
+.Admindashcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OwnersContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.Cardcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cardtext{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Modaltext{
+    font-size: 15px;
+    font-weight: 500;
+}
+.Maintain{
+    display: flex;
+    flex-direction:column;
+}

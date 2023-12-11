@@ -1,0 +1,64 @@
+.Main-footer {
+    display: flex;
+    background-color: rgb(23, 23, 23);
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.Footer-Container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    justify-content: space-between; /* Distribute items evenly */
+    width: 100%; /* Ensure it takes the full width */
+}
+
+.Footer-header {
+    display: flex;
+    flex-direction: row;
+    gap: 15px; /* Reduce the gap for smaller screens */
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.Footer-heading {
+    padding-left: 10px; /* Adjust padding for smaller screens */
+    font-size: 18px; /* Adjust font size for smaller screens */
+}
+
+.Heading {
+    color: white;
+}
+
+.Footer-list {
+    list-style: none;
+    font-size: 14px; /* Adjust font size for smaller screens */
+}
+
+.Footer-list-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; /* Reduce the gap for smaller screens */
+}
+
+.Mail-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px; /* Add some spacing at the top for smaller screens */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 2082px) {
+    .Footer-header {
+        gap: 150px; /* Further reduce the gap for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 1041px) {
+    .Footer-header {
+        gap: 100px; /* Further reduce the gap for smaller screens */
+    }
+}
+@media only screen and (max-width: 520px) {
+    .Footer-header {
+        gap: 50px; /* Further reduce the gap for smaller screens */
+    }
+}

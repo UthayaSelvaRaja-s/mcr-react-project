@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(../Assects/BG3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 70vh;
+    min-width: 100vw;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Name {
+    font-size: 50px; /* Use pixels for font size */
+    color: rgb(172, 128, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Slogan {
+    font-size: 20px; /* Use pixels for font size */
+    font-weight: bold;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header {
+    font-size: 30px; /* Use pixels for font size */
+    align-content: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Abstract,
+.Experience {
+    font-size: 20px; /* Use pixels for font size */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px; /* Use pixels for padding */
+}
+
+.Explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Roomimg {
+    display: flex;
+    flex-direction: row;
+    padding: 20px; /* Use pixels for padding */
+    gap: 15px; /* Use pixels for gap */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .Name {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+
+    .Slogan {
+        font-size: 15px; /* Adjust font size for smaller screens */
+    }
+
+    .Header {
+        font-size: 25px; /* Adjust font size for smaller screens */
+    }
+
+    .Abstract,
+    .Experience {
+        font-size: 15px; /* Adjust font size for smaller screens */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .Roomimg {
+        flex-direction: column; /* Change to column layout for smaller screens */
+        padding: 30px; /* Adjust padding for smaller screens */
+        gap: 20px; /* Adjust gap for smaller screens */
+    }
+}

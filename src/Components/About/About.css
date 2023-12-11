@@ -1,0 +1,56 @@
+/* About.css */
+
+/* Add a general styling for the body to ensure it takes the full width */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply a responsive font size to make text more readable on smaller screens */
+  .Aboutcontainer {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .AboutContent {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Style the headers */
+  .Aboutheader {
+    color: #333;
+  }
+  
+  /* Style the card */
+  .CardTitle {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .Aboutabstract {
+    font-size: 15px;
+  }
+  
+  /* Media query for small screens */
+  @media only screen and (max-width: 768px) {
+    .AboutContent {
+      padding: 10px;
+    }
+  
+    .CardTitle {
+      font-size: 16px;
+    }
+  
+    .Aboutabstract {
+      font-size: 14px;
+    }
+    
+    /* Make cards stack on top of each other on small screens */
+    .ant-card {
+      margin-bottom: 10px;
+    }
+  }
+  

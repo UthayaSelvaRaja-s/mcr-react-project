@@ -1,0 +1,122 @@
+.Usersigncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Usersigncardback {
+    background-image: url(../Assects/BG5.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.Usersignformdesign {
+    display: flex;
+    flex-direction: row;
+}
+
+.UsersignUserheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.UsersignText {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.UsersignUnderline {
+    width: 61px;
+    height: 6px;
+    background: black;
+    border-radius: 9px;
+}
+
+.UsersignInputs {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.UsersignInput label {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.UsersignInput {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.UsersignForget {
+    padding-left: 80px;
+    margin-top: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.UsersignForget span {
+    color: blue;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.UsersignSubmit-container {
+    display: flex;
+    gap: 15px;
+    margin: 30px auto;
+}
+
+.UsersignSubmit-signup{
+    width: 100%; /* Make the buttons take the full width */
+    background-color: green;
+    font-weight: 600;
+}
+
+.UsersignSubmit {
+    background: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Usersigngray {
+    background-color: gray;
+    color: black;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .Usersignformdesign {
+        flex-direction: column; /* Change to a column layout on smaller screens */
+    }
+
+    .UsersignInput {
+        width: 100%; /* Make the input fields take the full width */
+    }
+
+    .UsersignForget {
+        padding-left: 0; /* Remove left padding on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+    }
+}

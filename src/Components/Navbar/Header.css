@@ -1,0 +1,34 @@
+/* Header.css */
+
+.navbar {
+  background-color: #343a40; /* Change the background color as needed */
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+.nav-item{
+  font-weight: 600;
+}
+.navbar-toggler-icon {
+  background-color:black; /* Change the color of the toggler icon as needed */
+  border: 1px solid black; /* Add a border for a cleaner look */
+  padding: 3px; /* Add padding to the icon */
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    border-color: rgb(0, 0, 0); /* Change the color of the toggler button border as needed */
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 8px; /* Adjust the margin as needed */
+  }
+}
