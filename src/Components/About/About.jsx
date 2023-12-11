@@ -1,19 +1,8 @@
 import React from 'react';
 import './About.css'
-import logo_pic from '../Assects/LOGO.png'
-import { Card, Layout, Menu } from 'antd';
-import {
-  UserOutlined,
-  ContactsOutlined,
-  FacebookOutlined,
-  WhatsAppOutlined,
-  MailOutlined,
-  InfoCircleOutlined,
-  ToolOutlined,
-  HomeOutlined
-} from '@ant-design/icons';
+import { Card, Layout,} from 'antd';
 import  { useNavigate } from 'react-router-dom'
-const { Header, Footer, Content } = Layout;
+const { Footer, Content } = Layout;
 function About() {
       const Navigate = useNavigate();
   return (
