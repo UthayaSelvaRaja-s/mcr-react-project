@@ -1,10 +1,8 @@
 import React from 'react';
 import './About.css'
 import { Card, Layout,} from 'antd';
-import  { useNavigate } from 'react-router-dom'
 const { Footer, Content } = Layout;
 function About() {
-      const Navigate = useNavigate();
   return (
     <div>
         <Layout>

@@ -7,7 +7,7 @@ import axios from "axios"
 const {Footer, Content } = Layout;
 function UserLogin(){ 
   //Variable to save the data in the input feilds
-  let [Name,setName]=useState();
+  let [Name]=useState();
   let [Username,setUsername]= useState()
   let [Password,setPassword]= useState()
 

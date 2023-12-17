@@ -2,22 +2,9 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Card, Modal } from 'antd';
-import logo_pic from '../Assects/LOGO.png'
-import { Layout, Menu} from 'antd';
+import { Layout} from 'antd';
 import  './Admindash.css';
-import {
-  UserOutlined,
-  ContactsOutlined,
-  FacebookOutlined,
-  WhatsAppOutlined,
-  MailOutlined,
-  InfoCircleOutlined,
-  ToolOutlined,
-  HomeOutlined,
-  KeyOutlined,
-  LockOutlined
-} from '@ant-design/icons';
-const { Header, Footer, Content } = Layout;
+const {Footer, Content } = Layout;
 
 function Admindash() {
   const [users, setUsers] = useState([]);
